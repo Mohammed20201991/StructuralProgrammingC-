@@ -98,7 +98,16 @@ By the end of this course, students will be able to:
 - Recursion (introduction)
 - Function overloading (basic idea)
 
+---
 
+## Arrays
+- One-dimensional arrays
+- Two-dimensional arrays
+- Multi-dimensional arrays
+- Array traversal
+- Searching (Linear search)
+- Sorting (...)
+- Passing arrays to functions
 
 ---
 
@@ -121,17 +130,6 @@ By the end of this course, students will be able to:
 - External linkage
 - `extern` keyword
 - Lifetime of variables
-
----
-
-## Arrays
-- One-dimensional arrays
-- Two-dimensional arrays
-- Multi-dimensional arrays
-- Array traversal
-- Searching (Linear search)
-- Sorting (Bubble sort, Selection sort)
-- Passing arrays to functions
 
 ---
 
