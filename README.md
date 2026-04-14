@@ -273,7 +273,7 @@ Preparing for Data Structures and OOP courses
 #  Important Notes
 
 - This course emphasizes procedural programming.  
-- OOP topics (classes, inheritance, polymorphism) are reserved for advanced courses.  
+- OOP topics (classes, inheritance, polymorphism) are reserved for advanced courses in the next semster.  
 - Code readability and structure are strongly enforced.  
 
 ---
@@ -289,5 +289,6 @@ Students are encouraged to use and modify the code for learning.
 
 **Structural Programming in C++**  
 Department of AI, College of Information Technology.
+Coverd By Mohammed A.S. Al-Hitawi (Practice Part) & Basim M. Salah (Lectuer Part)
 
 
