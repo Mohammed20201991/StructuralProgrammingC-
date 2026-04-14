@@ -98,6 +98,17 @@ By the end of this course, students will be able to:
 - Recursion (introduction)
 - Function overloading (basic idea)
 
+
+
+---
+
+## Struct
+- Struct declaration
+- Struct definition
+- Struct prototype
+- Struct Properites
+- Nested Struct
+- Array of Struct
 ---
 
 ## Scope & Linkage
