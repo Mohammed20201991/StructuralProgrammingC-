@@ -76,6 +76,14 @@ By the end of this course, students will be able to:
 
 ---
 
+## Strings
+- C-style strings
+- Character arrays
+- String input methods
+- Basic string manipulation
+- String functions
+---
+
 ## Loops
 - `for`
 - `while`
@@ -130,15 +138,7 @@ By the end of this course, students will be able to:
 - External linkage
 - `extern` keyword
 - Lifetime of variables
-
 ---
-
-## Strings
-- C-style strings
-- Character arrays
-- String input methods
-- Basic string manipulation
-- String functions
 
 ## Enumeration (enum)
 - Enumeration declaration
@@ -147,19 +147,6 @@ By the end of this course, students will be able to:
 - Enumeration Properites
 - Nested Enumeration
 - Array of Enumeration
----
-
-## Vectors (STL Introduction)
-- What is `vector`
-- Including `<vector>`
-- Declaring vectors
-- Accessing elements
-- `push_back()`
-- `pop_back()`
-- `size()`
-- Iterating through vectors
-- Passing vectors to functions
-
 ---
 
 ## Pointers
@@ -173,6 +160,17 @@ By the end of this course, students will be able to:
 - `const` pointers
 
 ---
+## File Handling
+
+- `<fstream>`
+- `ifstream`
+- `ofstream`
+- Reading from files
+- Writing to files
+- Appending data
+- File error handling
+
+---
 
 ## Dynamic Memory & Heap
 - Stack vs Heap memory
@@ -182,6 +180,18 @@ By the end of this course, students will be able to:
 - Memory leaks
 - Dangling pointers
 - Best practices for memory management
+---
+
+## Vectors (STL Introduction)
+- What is `vector`
+- Including `<vector>`
+- Declaring vectors
+- Accessing elements
+- `push_back()`
+- `pop_back()`
+- `size()`
+- Iterating through vectors
+- Passing vectors to functions
 
 ---
 
@@ -198,16 +208,6 @@ T add(T a, T b) {
     return a + b;
 }
 ```
----
-## File Handling
-
-- `<fstream>`
-- `ifstream`
-- `ofstream`
-- Reading from files
-- Writing to files
-- Appending data
-- File error handling
 
 ---
 
@@ -288,6 +288,6 @@ Students are encouraged to use and modify the code for learning.
 # Maintainer
 
 **Structural Programming in C++**  
-Department of AI
+Department of AI, College of Information Technology.
 
 
