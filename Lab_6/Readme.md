@@ -69,5 +69,37 @@ Inner loop → marks
 
 🔹 Allow variable number of subjects
 
+<hr>
+
+### Example 2: Finance – Investment Portfolio System
+
+Each investor has:
+Name
+ID
+Array of investments (stocks)
+Calculate total portfolio value
+
+#### Example Input
+```
+Enter number of investors: 2
+
+Investor 1
+Name: Ali
+ID: 1
+1000 2000 1500 3000 2500
+
+Investor 2
+Name: Sara
+ID: 2
+5000 4000 3000 2000 1000
+```
+
+#### Example Output
+--- Portfolio Summary ---
+Ali | Total Value: 10000
+Sara | Total Value: 15000
+
+Top Investor: Sara (15000)
+
 
 
