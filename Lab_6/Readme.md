@@ -52,7 +52,7 @@ Total: 464
 Average: 92.8
 Grade: A
 ```
-
+#### Key Concepts
 ```
 float marks[5]; → Array inside struct
 Student s[100]; → Array of structures
@@ -62,8 +62,12 @@ Inner loop → marks
 ```
 ### Task:
 🔹 Find highest average student
+
 🔹 Search student by ID
+
 🔹 Sort students by average
+
 🔹 Allow variable number of subjects
+
 
 
