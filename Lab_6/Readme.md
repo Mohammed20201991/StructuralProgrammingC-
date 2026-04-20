@@ -120,4 +120,37 @@ struct {
 } myStruct1, myStruct2, myStruct3; // Multiple structure variables separated with commas
 ```
 
+Can we use like 
+```
+struct {
+  string name;
+  int age;
+} students[3];
+```
+See Complete example below 
+```
+#include <iostream>
+using namespace std;
 
+struct {
+  string name;
+  int age;
+} students[3];
+
+int main() {
+
+  students[0].name = "Ali";
+  students[0].age = 20;
+
+  students[1].name = "Sara";
+  students[1].age = 22;
+
+  students[2].name = "Omar";
+  students[2].age = 19;
+
+  for(int i = 0; i < 3; i++) {
+    cout << students[i].name << " - " << students[i].age << endl;
+  }
+  return 0;
+}
+```
