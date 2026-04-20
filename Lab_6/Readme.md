@@ -105,5 +105,19 @@ Top Investor: Sara (15000)
 ```
 
 ## One  Variables Struct
-## Multipule Variables Struct
+```
+struct {
+  int num;
+  string name;
+} myStruct1; // One structure one  variable
+```
+
+## One Structure in Multiple Variables
+```
+struct {
+  int num;
+  string name;
+} myStruct1, myStruct2, myStruct3; // Multiple structure variables separated with commas
+```
+
 
