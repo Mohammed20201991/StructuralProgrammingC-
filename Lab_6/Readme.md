@@ -1,3 +1,4 @@
+## Named Struct Type
 ### Example 1: Struct with Array Members (Student Marks System)
 Use a struct that contains:
 
