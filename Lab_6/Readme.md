@@ -104,4 +104,6 @@ Sara | Total Value: 15000
 Top Investor: Sara (15000)
 ```
 
+## One  Variables Struct
+## Multipule Variables Struct
 
