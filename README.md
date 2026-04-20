@@ -318,4 +318,5 @@ Department of AI, College of Information Technology.
 
 Coverd By Mohammed A.S. Al-Hitawi (Practice Part) & Basim M. Salah (Lectuer Part)
 
-
+## Ref.
+- https://cppreference.com
