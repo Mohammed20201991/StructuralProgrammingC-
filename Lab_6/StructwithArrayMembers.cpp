@@ -15,7 +15,7 @@ int main() {
     cout << "Enter number of students: ";
     cin >> n;
 
-    Student s[100]; // Array of structs
+    Student s[3]; // Array of structs
 
     // Input
     for(int i = 0; i < n; i++) {
