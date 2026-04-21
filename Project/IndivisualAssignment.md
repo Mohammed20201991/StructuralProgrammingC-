@@ -1,4 +1,5 @@
-### C++ Project Assignment – Individual Work
+### C++ Project Assignment – Individual Work <br> 
+
 Each student is required to complete an individual programming project using **C++**, based on the topics covered in the course.
 ---
 ### Objective
