@@ -59,3 +59,10 @@ Apply the concepts learned in class (such as variables, control structures, func
 * Presentation
 ---
 Good luck, and be creative 
+
+What to say in lab (simple instructions)
+
+You can tell them:
+
+“Each student will present their project for 5 minutes.
+Explain your idea, show how your program works, and I may ask you questions about your code.”
