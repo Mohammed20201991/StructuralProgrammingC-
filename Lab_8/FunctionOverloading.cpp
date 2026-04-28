@@ -1,4 +1,12 @@
-//Overloading: Multiple functions with the same name but with different parameters
+/*Overloading: Multiple functions with the same name but with different parameters
+Different Ways of Function Overloading
+A function in C++ can be overloaded in three different ways:
+
+By having different number of parameters.
+By having different types of parameters.
+By having both different number and types of parameters.
+*/
+
 #include <iostream>
 using namespace std;
 
