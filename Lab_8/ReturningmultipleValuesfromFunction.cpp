@@ -29,3 +29,5 @@ int main()
     cout << s.name << " " << s.num << endl;
     return 0;
 }
+
+// Modern C++ style prefers {} without =
