@@ -23,3 +23,21 @@ int main() {
     cout << add(3, 4);  // Output: 7
     return 0;
 }
+
+// --------------------------------------------//
+// Example 2: Lambda with Capture
+/*
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 10;
+    // [x] means we capture x by value
+    auto print = [x]() {
+        cout << x << endl;
+    };
+
+    print();  // Output: 10
+    return 0;
+}
+*/
