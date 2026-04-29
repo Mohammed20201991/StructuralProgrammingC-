@@ -86,3 +86,29 @@ void inc(int x){
 ```
 Original variable remains unchanged
 
+## 3. Pass by Reference
+Concept
+- Pass the actual variable
+- Changes affect the original
+
+### Examples (Modify value)
+```
+void f(int &x){
+    x = 100;
+}
+```
+Swap
+
+```
+void swap(int &a, int &b){
+    int t = a;
+    a = b;
+    b = t;
+}
+```
+Increment
+```
+void inc(int &x){
+    x++;
+}
+```
