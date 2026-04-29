@@ -41,3 +41,20 @@ int main() {
     return 0;
 }
 */
+
+// Example 3: Capture by Reference
+/*
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 10;
+    auto change = [&x]() {
+        x += 5;
+    };
+
+    change();
+    cout << x;  // Output: 15
+    return 0;
+}
+*/
