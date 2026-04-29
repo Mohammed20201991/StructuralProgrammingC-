@@ -20,6 +20,7 @@ int main() {
 }
 //--------------------------------------------//
 // Example 2: Even or Odd number
+/*
 #include <iostream>
 using namespace std;
 
@@ -28,3 +29,18 @@ int main() {
     (num % 2 == 0) ? cout << "Even" : cout << "Odd";
     return 0;
 }
+*/
+// Example 3: Assign Result
+/*
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks = 45;
+
+    string result = (marks >= 50) ? "Pass" : "Fail";
+
+    cout << result;
+    return 0;
+}
+*/
