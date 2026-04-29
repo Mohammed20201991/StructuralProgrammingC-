@@ -106,6 +106,7 @@ By the end of this course, students will be able to:
 - Recursion (introduction)
 - Function overloading (basic idea)
 - Lambda Function
+- Returning multiple values from a function
 
 ---
 
