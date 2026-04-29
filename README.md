@@ -105,6 +105,7 @@ By the end of this course, students will be able to:
 - Inline functions
 - Recursion (introduction)
 - Function overloading (basic idea)
+- Lambda Function
 
 ---
 
