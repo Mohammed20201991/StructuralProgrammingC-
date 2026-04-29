@@ -1,0 +1,20 @@
+/* 
+Ternary operator
+The ternary operator (?:) in C++ is a short way to write an if-else statement in one line.
+condition ? expression_if_true : expression_if_false;
+- If the condition is true → first expression runs
+- If false → second expression runs
+*/
+
+// Example 1: C++ Program that find max value btw (2 numbers) using Ternary Operator
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 20;
+
+    int max = (a > b) ? a : b;
+
+    cout << "Max = " << max;
+    return 0;
+}
