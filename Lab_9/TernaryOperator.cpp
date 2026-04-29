@@ -18,3 +18,13 @@ int main() {
     cout << "Max = " << max;
     return 0;
 }
+//--------------------------------------------//
+// Example 2: Even or Odd number
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num = 7;
+    (num % 2 == 0) ? cout << "Even" : cout << "Odd";
+    return 0;
+}
