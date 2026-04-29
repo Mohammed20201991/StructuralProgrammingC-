@@ -49,6 +49,7 @@ using namespace std;
 
 int main() {
     int x = 10;
+    // [&x] means we capture by reference (can modify original variable)
     auto change = [&x]() {
         x += 5;
     };
