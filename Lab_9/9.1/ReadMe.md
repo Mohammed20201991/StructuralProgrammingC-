@@ -62,4 +62,27 @@ for(int &x : arr)
 for(int x : arr)
     cout << x << " ";
 ```
+## 2. Pass by Value
+Concept
+* A copy of the variable is passed
+* Original value is NOT affected
+### Examples
+```
+void f(int x){
+    x = 100;
+}
+```
+
+```
+int sum(int a, int b){
+    return a + b;
+}
+```
+
+```
+void inc(int x){
+    x++;
+}
+```
+Original variable remains unchanged
 
