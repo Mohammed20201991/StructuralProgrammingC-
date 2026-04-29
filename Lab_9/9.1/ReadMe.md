@@ -21,10 +21,10 @@ int &ref = x;  // ref refers to x
 ##  Important Rules
 1. Must be initialized
 ```
-int &r;   // ❌ ERROR
+int &r;   // ERROR
 
 int x = 10;
-int &r = x;   // ✅ correct
+int &r = x;   // correct
 ```
 A reference must always point to something.
 
@@ -33,9 +33,33 @@ A reference must always point to something.
 int x = 10, y = 20;
 int &r = x;
 
-r = y;  // ❌ does NOT change reference
+r = y;  // does NOT change reference
 ```
 This means:
 `x = y;  // x becomes 20`
 `r` still refers to `x`
+### Example 1
+```
+int x = 10;
+int &r = x;
+cout << r;
+```
+
+### Example 2 (Modify value)
+```
+int x = 5;
+int &r = x;
+r = 20;
+cout << x; // 20
+```
+### Example 3 (Loop with reference)
+```
+int arr[3] = {1,2,3};
+
+for(int &x : arr)
+    x *= 2;
+
+for(int x : arr)
+    cout << x << " ";
+```
 
