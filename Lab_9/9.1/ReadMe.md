@@ -112,3 +112,34 @@ void inc(int &x){
     x++;
 }
 ```
+## 4. Passing Arrays to Functions
+Key Idea
+- Arrays are passed as reference (pointer)
+- Changes affect original array
+- Must pass size manually
+
+### Examples(Print array)
+```
+void print(int a[], int n){
+    for(int i=0;i<n;i++)
+        cout << a[i] << " ";
+}
+```
+Sum
+```
+int sum(int a[], int n){
+    int s = 0;
+    for(int i=0;i<n;i++)
+        s += a[i];
+    return s;
+}
+```
+Modify array
+```
+void inc(int a[], int n){
+    for(int i=0;i<n;i++)
+        a[i]++;
+}
+```
+
+
