@@ -161,4 +161,13 @@ void changeRef(Student &s){
     s.age = 50;
 }
 ```
+## Summury
+| Concept           | Behavior                     |
+| ----------------- | ---------------------------- |
+| Reference         | Alias of variable            |
+| Pass by Value     | Copy (no change to original) |
+| Pass by Reference | Direct (changes original)    |
+| Arrays            | Passed as reference          |
+| Structs           | Can be value or reference    |
+| Scope             | Local vs Global              |
 
