@@ -320,3 +320,4 @@ Coverd By Mohammed A.S. Al-Hitawi (Practice Part) & Basim M. Salah (Lectuer Part
 
 ## Ref.
 - https://cppreference.com
+- https://learn.microsoft.com/en-us/cpp/?view=msvc-170
