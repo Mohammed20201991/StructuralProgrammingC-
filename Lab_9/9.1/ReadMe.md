@@ -141,5 +141,24 @@ void inc(int a[], int n){
         a[i]++;
 }
 ```
-
+## 5. Passing Struct to Functions
+Struct Definition
+```
+struct Student {
+    string name;
+    int age;
+};
+```
+### Example  (Pass by value)
+```
+void print(Student s){
+    cout << s.name << " " << s.age;
+}
+```
+### Example  (Pass by reference)
+```
+void changeRef(Student &s){
+    s.age = 50;
+}
+```
 
