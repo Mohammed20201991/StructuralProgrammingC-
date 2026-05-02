@@ -74,3 +74,4 @@ int main() {
 | Reassignable? |  No           |  Yes           |
 | Use           | Alias         | Memory address |
 
+A reference = another name for the SAME variable (not a copy, not a pointer).
