@@ -30,6 +30,7 @@ what if function defention become `void update(int num)`
 using namespace std;
 
 void update(int &num) {
+// num is just another name for a, Changes inside the function affect the original variable.
     num = num + 5;
 }
 
