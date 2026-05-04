@@ -13,3 +13,4 @@ int main() {
     calculate(3, 4, s, p);
     cout << s << " " << p;
 }
+// Key Idea: A function in C++ can only return one object, but that object can contain multiple values.
