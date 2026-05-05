@@ -58,10 +58,13 @@ int arr[3] = {1,2,3};
 
 for(int &x : arr)
     x *= 2;
-
+// x is a reference to each element So it directly modifies the array
 for(int x : arr)
     cout << x << " ";
+// x is a copy No modification happens
 ```
+
+
 ## 2. Pass by Value
 Concept
 * A copy of the variable is passed
