@@ -63,6 +63,10 @@ for(int x : arr)
     cout << x << " ";
 // x is a copy No modification happens
 ```
+| Loop type      | Meaning           | Can modify array? |
+| -------------- | ----------------- | ----------------- |
+| `int &x : arr` | reference (alias) |    Yes            |
+| `int x : arr`  | copy (value)      |    No             |
 
 
 ## 2. Pass by Value
