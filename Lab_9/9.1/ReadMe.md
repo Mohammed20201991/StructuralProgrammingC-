@@ -127,6 +127,7 @@ Key Idea
 
 ### Examples(Print array)
 ```
+// a is treated like a pointer: int* a
 void print(int a[], int n){
     for(int i=0;i<n;i++)
         cout << a[i] << " ";
@@ -178,3 +179,6 @@ void changeRef(Student &s){
 | Structs           | Can be value or reference    |
 | Scope             | Local vs Global              |
 
+Arrays in C++ are not truly passed by reference, but they decay into pointers when passed to functions.
+
+So effectively, the function works with the original array memory, and changes affect it.
