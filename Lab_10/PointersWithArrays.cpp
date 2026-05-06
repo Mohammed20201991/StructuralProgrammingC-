@@ -1,5 +1,6 @@
 // Without Pointers (Less Efficient Conceptually)
 // Arrays already behave like pointers, but it's not explicit
+/*
 #include <iostream>
 using namespace std;
 
@@ -28,3 +29,5 @@ int main() {
 
     printArray(data, 3); // same as &data[0]
 }
+
+*/
