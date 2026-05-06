@@ -189,7 +189,7 @@ int *p;
 - System-level programming
 
 ### 21. Mini Problems
-Q1
+**Q1**
 ```
 int x = 5;
 int *p = &x;
@@ -197,7 +197,7 @@ int *p = &x;
 ```
 Output: 15
 
-Q2
+**Q2**
 ```
 int arr[] = {1,2,3};
 int *p = arr;
@@ -206,7 +206,7 @@ cout << *(p+2);
 ```
 Output: 3
 
-Q3
+**Q3**
 ```
 int x = 10;
 int *p = &x;
@@ -215,3 +215,4 @@ int **pp = &p;
 **pp = 50;
 ```
 Output: 50
+
