@@ -26,7 +26,7 @@ By the end of this course, students will be able to:
 - Build complete console-based applications
 
 ---
-
+Prerequisite: Students should complete the Basics of C++ course offered in the Autumn semester before enrolling in this course.
 # Topics Covered
 
 ---
