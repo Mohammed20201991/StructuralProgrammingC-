@@ -188,6 +188,7 @@ int *p;
 - Efficient data passing
 - System-level programming
 
+---
 ### 21. Mini Problems
 **Q1**
 ```
@@ -215,4 +216,5 @@ int **pp = &p;
 **pp = 50;
 ```
 Output: 50
-
+---
+**Pointers** let functions modify the original variable, not just a copy.
