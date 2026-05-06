@@ -150,3 +150,42 @@ int **pp = &p;
 
 cout << **pp; // 10
 ```
+### 17. Dynamic Memory (Very Important)
+Single value
+```
+int *p = new int;
+*p = 50;
+
+delete p;
+```
+Array
+```
+int *arr = new int[3];
+
+delete[] arr;
+```
+### 18. Dangling Pointer
+```
+int *p = new int(10);
+delete p;
+```
+Fix:
+`p = nullptr;`
+
+### 19. Common Mistakes
+
+❌ Uninitialized pointer:
+
+```
+int *p;
+*p = 10; // ERROR
+```
+❌ Forget delete → memory leak
+
+### 20. Real-Life Uses
+- Dynamic memory
+- Data structures (linked list, tree)
+- Efficient data passing
+- System-level programming
+
+### 21. Mini Problems
