@@ -31,3 +31,7 @@ int main() {
 }
 
 */
+
+// p points to the first element
+// We move through memory using (p + i)
+// Pointers let you:  Traverse arrays efficiently, Handle large data without copying
