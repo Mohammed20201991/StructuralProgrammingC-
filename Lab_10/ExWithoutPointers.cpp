@@ -13,3 +13,6 @@ int main() {
 
     cout << a;  // Output: 10 (no change)
 }
+
+// Function got a copy of a
+// Original value did NOT change
