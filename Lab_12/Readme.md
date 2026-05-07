@@ -29,7 +29,7 @@ int main() {
     ofstream MyFile("filename.txt");
 
     // Write to the file
-    MyFile << "Files can be tricky, but it is fun enough!";
+    MyFile << "Files Handling!";
 
     // Close the file
     MyFile.close();
