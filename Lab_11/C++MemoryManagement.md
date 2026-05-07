@@ -62,3 +62,22 @@ Explanation
 5×4=20
 
 So, the array size is 20 bytes.
+
+What if it is double?
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    double values[5] = {1.1, 2.2, 3.3, 4.4, 5.5};
+
+    cout << sizeof(values) << endl;
+
+    return 0;
+}
+```
+Explanation
+
+- A double typically uses 8 bytes. `5×8=40`
+
+So, the array size is 40 bytes.
