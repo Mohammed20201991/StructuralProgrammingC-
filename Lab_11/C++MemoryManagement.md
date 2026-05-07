@@ -42,3 +42,23 @@ What's Next?
 - In C++, pointers allow direct access to memory.
 
 - In the next chapter, you will learn how to allocate memory using new and free it using delete.
+
+#### In C++, the sizeof operator can also be used with arrays.
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numbers[5] = {10, 20, 30, 40, 50};
+
+    cout << sizeof(numbers) << endl;
+
+    return 0;
+}
+```
+Explanation
+- `sizeof(numbers)` returns the total size of the array in `bytes`.
+- If one int uses `4 bytes`, then:
+5×4=20
+
+So, the array size is 20 bytes.
