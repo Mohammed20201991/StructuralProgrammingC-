@@ -45,3 +45,25 @@ int main() {
 |  MyFile << "text";                 | Writes text into the file            |
 |  MyFile.close();                   | Closes the file                      |
 
+```
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+
+    // Create and open a text file
+    ofstream MyFile("filename.txt");
+
+    // Write to the file
+    MyFile << "Files Handling!" << endl;
+
+    // Write on second line
+    MyFile << "Files Handling22!" << endl;
+
+    // Close the file
+    MyFile.close();
+
+    return 0;
+}
+```
