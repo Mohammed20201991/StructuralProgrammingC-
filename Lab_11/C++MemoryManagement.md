@@ -24,3 +24,21 @@ int main() {
     return 0;
 }
 ```
+
+## Do You Have to Manage Memory Yourself?
+- Sometimes yes, sometimes no.
+- For normal variables like:
+
+```cpp
+int x = 10;
+```
+
+### C++ manages memory automatically.
+- But if you create memory manually during program execution, you must also release it when it is no longer needed.
+- Poor memory management can cause slow programs or crashes.
+
+What's Next?
+
+- In C++, pointers allow direct access to memory.
+
+- In the next chapter, you will learn how to allocate memory using new and free it using delete.
