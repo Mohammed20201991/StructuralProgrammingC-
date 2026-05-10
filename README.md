@@ -172,6 +172,8 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - Appending data
 - File error handling
 ---
+### Advanced & Optional Topics
+The following topics are enrichment materials intended for advanced understanding and may be optionally covered during the course.
 
 ## Exception Handling (Error Handling)
 
