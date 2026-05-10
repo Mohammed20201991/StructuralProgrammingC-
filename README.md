@@ -29,9 +29,7 @@ By the end of this course, students will be able to:
 Prerequisite: Students should complete the Basics of C++ course offered in the Autumn semester before enrolling in this course.
 # Topics Covered
 
----
-
-## Introduction to Programming
+## 1. Introduction to Programming
 - What is programming?
 - Problem-solving methodology
 - Algorithms
@@ -40,9 +38,8 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - Compilation process
 - Syntax vs Logical errors
 
----
 
-## Basics of C++
+## 2. Basics of C++
 - Structure of a C++ program
 - `#include`
 - `main()` function
@@ -54,9 +51,8 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - Input and Output (`cin`, `cout`)
 - Formatting output
 
----
 
-## Operators and Expressions
+## 3. Operators and Expressions
 - Arithmetic operators
 - Relational operators
 - Logical operators
@@ -65,9 +61,8 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - Bitwise operators (basic)
 - Operator precedence
 
----
 
-## Control Structures
+## 4. Control Structures
 - `if`
 - `if-else`
 - Nested conditions
@@ -76,15 +71,14 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 
 ---
 
-## Strings
+## 5. Strings
 - C-style strings
 - Character arrays
 - String input methods
 - Basic string manipulation
 - String functions
----
 
-## Loops
+## 6. Loops
 - `for`
 - `while`
 - `do-while`
@@ -93,9 +87,7 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - `break`
 - `continue`
 
----
-
-## Functions
+## 7. Functions
 - Function declaration
 - Function definition
 - Function prototype
@@ -108,9 +100,7 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - Lambda Function
 - Returning multiple values from a function
 
----
-
-## Arrays
+## 8. Arrays
 - One-dimensional arrays
 - Two-dimensional arrays
 - Multi-dimensional arrays
@@ -119,18 +109,15 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - Sorting (...)
 - Passing arrays to functions
 
----
-
-## Struct
+## 9. Struct
 - Struct declaration
 - Struct definition
 - Struct prototype
 - Struct Properites
 - Nested Struct
 - Array of Struct
----
 
-## Scope & Linkage
+## 10. Scope & Linkage
 - Local variables
 - Global variables
 - Block scope
@@ -140,18 +127,16 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - External linkage
 - `extern` keyword
 - Lifetime of variables
----
 
-## Enumeration (enum)
+## 11. Enumeration (enum)
 - Enumeration declaration
 - Enumeration definition
 - Enumeration prototype
 - Enumeration Properites
 - Nested Enumeration
 - Array of Enumeration
----
 
-## Pointers
+## 12.Pointers
 - Pointer basics
 - Address-of operator `&`
 - Dereferencing `*`
@@ -161,8 +146,7 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - Null pointers
 - `const` pointers
 
----
-## File Handling
+## 13.File Handling
 
 - `<fstream>`
 - `ifstream`
@@ -174,8 +158,8 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 ---
 ### Advanced & Optional Topics
 The following topics are enrichment materials intended for advanced understanding and may be optionally covered during the course.
-
-## Exception Handling (Error Handling)
+---
+## 14. Exception Handling (Error Handling)
 
 #### Types of Errors in Programming
 - Syntax Errors  
@@ -200,9 +184,7 @@ The following topics are enrichment materials intended for advanced understandin
 - Catch only necessary exceptions  
 - Keep exception handling simple and readable  
 
----
-
-## Dynamic Memory & Heap
+## 15. Dynamic Memory & Heap
 - Stack vs Heap memory
 - `new` operator
 - `delete` operator
@@ -210,9 +192,8 @@ The following topics are enrichment materials intended for advanced understandin
 - Memory leaks
 - Dangling pointers
 - Best practices for memory management
----
 
-## Vectors (STL Introduction)
+## 16. Vectors (STL Introduction)
 - What is `vector`
 - Including `<vector>`
 - Declaring vectors
@@ -223,9 +204,7 @@ The following topics are enrichment materials intended for advanced understandin
 - Iterating through vectors
 - Passing vectors to functions
 
----
-
-## Templates (Introduction)
+## 17. Templates (Introduction)
 - Function templates
 - Generic programming basics
 - Template syntax
