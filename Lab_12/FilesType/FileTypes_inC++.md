@@ -43,8 +43,6 @@ The file content can be opened and read using Notepad.
 
 * Easy to read
 * Easy to edit
-* Good for beginners
-
 
 ## Disadvantages
 
