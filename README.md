@@ -8,8 +8,6 @@ The course introduces students to problem-solving and program design using the s
 
 > ⚠️ This course focuses on structured programming concepts. Object-Oriented Programming (OOP) topics are intentionally minimized.
 
----
-
 # Course Objectives
 
 By the end of this course, students will be able to:
@@ -25,7 +23,6 @@ By the end of this course, students will be able to:
 - Debug and test C++ programs
 - Build complete console-based applications
 
----
 Prerequisite: Students should complete the Basics of C++ course offered in the Autumn semester before enrolling in this course.
 # Topics Covered
 
@@ -37,7 +34,6 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - Pseudocode
 - Compilation process
 - Syntax vs Logical errors
-
 
 ## 2. Basics of C++
 - Structure of a C++ program
@@ -51,7 +47,6 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - Input and Output (`cin`, `cout`)
 - Formatting output
 
-
 ## 3. Operators and Expressions
 - Arithmetic operators
 - Relational operators
@@ -61,15 +56,12 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - Bitwise operators (basic)
 - Operator precedence
 
-
 ## 4. Control Structures
 - `if`
 - `if-else`
 - Nested conditions
 - `switch`
 - Ternary operator
-
----
 
 ## 5. Strings
 - C-style strings
@@ -157,7 +149,7 @@ Prerequisite: Students should complete the Basics of C++ course offered in the A
 - File error handling
 ---
 ### Advanced & Optional Topics
-The following topics are enrichment materials intended for advanced understanding and may be optionally covered during the course.
+##### The following topics are enrichment materials intended for advanced understanding and may be optionally covered during the course.
 ---
 ## 14. Exception Handling (Error Handling)
 
@@ -218,8 +210,6 @@ T add(T a, T b) {
 }
 ```
 
----
-
 ##  Structured Programming Principles
 
 - Top-down design  
@@ -230,7 +220,6 @@ T add(T a, T b) {
 - Clean coding practices  
 - Code documentation  
 
----
 
 # 🛠 Requirements
 
@@ -242,8 +231,6 @@ T add(T a, T b) {
 - Code::Blocks  
 - Dev-C++  
 - VS Code (with C++ extension)  
-
----
 
 #  How to Compile and Run
 
@@ -269,7 +256,6 @@ Writing modular programs
 Basic STL usage
 
 Preparing for Data Structures and OOP courses
----
 #  Target Audience
 
 - First-year Computer Science students  
@@ -277,22 +263,16 @@ Preparing for Data Structures and OOP courses
 - Beginners in programming  
 - Anyone learning C++ fundamentals  
 
----
-
 #  Important Notes
 
 - This course emphasizes procedural programming.  
 - OOP topics (classes, inheritance, polymorphism) are reserved for advanced courses in the next semster.  
 - Code readability and structure are strongly enforced.  
 
----
-
 # License
 
 This repository is for academic and educational purposes.  
 Students are encouraged to use and modify the code for learning.
-
----
 
 # Maintainer
 
